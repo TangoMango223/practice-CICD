@@ -53,6 +53,15 @@ htmlcov/
 trust-policy.json
 secrets-policy.json
 
+# Terraform - contains sensitive values
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+
 # Claude MD
 CLAUDE.md
 .env
+
+# Deployment instructions with actual credentials
+DEPLOYMENT_STEPS.md
